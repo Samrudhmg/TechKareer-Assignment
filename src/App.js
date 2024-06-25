@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { CiLocationOn } from "react-icons/ci";
 import { PiSuitcaseBold } from "react-icons/pi";
@@ -7,7 +7,7 @@ import { PiHandCoins } from "react-icons/pi";
 import { MdOutlinePeopleAlt } from "react-icons/md";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { MdOutlineEdit } from "react-icons/md";
-import { MdPeopleAlt } from "react-icons/md";
+
 
 
 
@@ -20,17 +20,17 @@ function App() {
           </div>
           <p><PiSuitcaseBold size={18} className='toogle-icons'/>Jobs</p>
           <div className="Toogle">
-              <h3><FiMessageSquare size={18} className='toogle-icons' /><img src='Ellipse 4.png'></img>Messages</h3>
+              <h3><FiMessageSquare size={18} className='toogle-icons' /><img src='Ellipse 4.png' alt='nothing'></img>Messages</h3>
               <h3><PiHandCoins size={18} className='toogle-icons'/>Payments</h3>
               <h3><MdOutlinePeopleAlt size={18} className='toogle-icons' />Application</h3>
           </div>
           <div className="notify">
             <div className="bell">
-              <img src='bell-02 (2).png'></img>
-              <img className="dot" src='Ellipse 4.png'></img>
+              <img src='bell-02 (2).png' alt='nothing'></img>
+              <img className="dot" src='Ellipse 4.png' alt='nothing'></img>
             </div>
             <div>
-              <img src='Frame 1.png'></img>
+              <img src='Frame 1.png'alt='nothing'></img>
             </div>
 
 
@@ -55,9 +55,9 @@ function App() {
 
             <div className='title'>
               <h1>Senior Product Designer</h1>
-                <h4><img src='Ellipse 11.png'></img> posted 2 days ago </h4>
+                <h4><img src='Ellipse 11.png' alt='nothing'></img> posted 2 days ago </h4>
               <div className='open'>
-                <img src='Dot.png'></img>
+                <img src='Dot.png' alt='nothing'></img>
                 <h5>open</h5>
               </div>
             </div>
@@ -65,16 +65,16 @@ function App() {
 
             <div className='loc'>
               <h3><CiLocationOn size={22} className='icon' />Delware, USA</h3>
-              <h4><img src='Ellipse 11.png'></img> <img src='coins-stacked-03.png'></img> $300k-$400k</h4>
+              <h4><img src='Ellipse 11.png' alt='nothing'></img> <img src='coins-stacked-03.png' alt='nothing'></img> $300k-$400k</h4>
             </div>
 
 
             <div className='skills'>
               <div className='required'>
                 <h5>Skills Required</h5>
-                <div className='same'><img src='image 1.png'></img>Figma</div>
-                <div className='same'><img src='image 2.png'></img>Adobe Iluustrator</div>
-                <div className='same'><img src='image 6.png'></img>Adobe XD</div>
+                <div className='same'><img src='image 1.png' alt='nothing'></img>Figma</div>
+                <div className='same'><img src='image 2.png' alt='nothing'></img>Adobe Iluustrator</div>
+                <div className='same'><img src='image 6.png' alt='nothing'></img>Adobe XD</div>
               </div>
                 
                 <div className='language'>
@@ -119,7 +119,7 @@ function App() {
           <div className='info'>
 
             <div className='heading'>
-              <img src='Rectangle 43.png'></img>
+              <img src='Rectangle 43.png' alt='nothing'></img>
               <h3>Atlassian</h3>
               <button>Follow</button>
             </div>
@@ -175,20 +175,20 @@ function App() {
 
             <div>
               <div className='details'>
-                <h4><img src='users-01.png'></img>
+                <h4><img src='users-01.png' alt='nothing'></img>
                 Applicants</h4>
                 <h3>400</h3>
               </div>
               <div className='details'>
-                <h4><img src='user-check-01.png'></img>Matches</h4>
+                <h4><img src='user-check-01.png' alt='nothing'></img>Matches</h4>
                 <h3>100</h3>
               </div>
               <div className='details'>
-                <h4><img src='message-square-01.png'></img>Messages</h4>
+                <h4><img src='message-square-01.png' alt='nothing'></img>Messages</h4>
                 <h3>147</h3>
               </div>
               <div className='details'>
-                <h4><img src='eye.png'></img>Views</h4>
+                <h4><img src='eye.png' alt='nothing'></img>Views</h4>
                 <h3>800</h3>
               </div>
             </div>
@@ -196,7 +196,7 @@ function App() {
             <div className='box-name'>
               <h3>"A quote from a Atlassian."</h3>
               <div className='img-info'>
-                <img src='Avatar.png'></img>
+                <img src='Avatar.png' alt='nothing'></img>
                 <div>
                   <h4>Name</h4>
                   <p>Description</p>

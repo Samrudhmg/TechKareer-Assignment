@@ -381,6 +381,9 @@
       }
       button:nth-child(2){
         padding: 10px 40px;
+        border: 1px solid #FED3CA;
+        background-color: #DC4A2D;
+        color: #fff;
       }
     }
 
